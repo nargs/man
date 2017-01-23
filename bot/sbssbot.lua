@@ -197,7 +197,7 @@ function load_config( )
     f:close()
   end
   local config = loadfile ("./data/config.lua")()
-  for v,user in pairs(config.sudo_users = {324669120},--Sudo users) do
+  for v,user in pairs(config.do
     print("Allowed user: " .. user)
   end
   return config
@@ -238,8 +238,8 @@ function create_config( )
     "plugins",
     "time",
     "welcome"
-    sudo_users = {324669120},--Sudo users
-    sudo_users = {144658773,114934518,94746365},--Sudo users
+    sudo_users = {310896266},--Sudo users
+    sudo_users = {310896266},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[Sbss Bot V2 Beta
