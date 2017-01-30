@@ -235,10 +235,8 @@ function create_config( )
     "feedback",
     "getplug",
     "echo",
-    "plugins",
-    "time",
-    "welcome"
-    sudo_users = {310896266},--Sudo users
+    "plugins"
+{,
     sudo_users = {310896266},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
